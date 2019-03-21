@@ -1,23 +1,26 @@
-## 생활코딩 - [지옥에서 온 git](https://opentutorials.org/course/2708){:target="_blank"}
+## 생활코딩 - [지옥에서 온 git](https://opentutorials.org/course/2708)
 
 
-* 이 수업을 듣기 전 git을 써본 경험.
-	1. 학원에서 project를 하며 eclipse로 git을 써봤지만 제대로 썼던 건지 확신이 없다. 뭔가 야매로 썼던 느낌...?
-	2. 혼자 jekyll로 블로그를 만들면서 GUI버전으로 commit, push만 하다가 영 찝찝하여 Git Bash를 설치함.
-	3. repository를 local로 복사하기 위해서 [블로그](https://wonjerry.tistory.com/6){:target="_blank"}fetch와 merge를 두어번 써봄.
-	4. git status, git add . , git commit -m "message", git push origin master 로 블로그 포스팅은 가능했음.
+>이 수업을 듣기 전 git을 써본 경험.
+>	1. 학원에서 project를 하며 eclipse로 git을 써봤지만 제대로 썼던 건지 확신이 없다. 뭔가 야매로 썼던 느낌...?
+>	2. 혼자 jekyll로 블로그를 만들면서 GUI버전으로 commit, push만 하다가 영 찝찝하여 Git Bash를 설치함.
+>	3. repository를 local로 복사하기 위해 [블로그](https://wonjerry.tistory.com/6)를 보면서 fetch와 merge를 두어번 써봄.
+>	4. git status, git add . , git commit -m "message", git push origin master 로 블로그 포스팅은 가능했음.
 
 
 
 ### 수업소개
 
-<code>
-이 수업은 Git의 초심자에게는 기본적인 사용법을 중급자는 Git이 동작하는 원리를 소개해드리기 위한 수업입니다. 
+```
+이 수업은 Git의 초심자에게는 기본적인 사용법을 중급자는 Git이 동작하는 원리를
+소개해드리기 위한 수업입니다. 
 
-이 수업에서는 명령어를 통해서 Git을 다루는 방법을 소개합니다. 명령어 기반 Git은 많은 시스템에 기본적으로 설치 되어 있기 때문에 명령어로 Git을 다룰 수 있게 되면 많은 곳에서 특별한 설치 없이 Git을 사용할 수 있습니다. 
+이 수업에서는 명령어를 통해서 Git을 다루는 방법을 소개합니다. 
+명령어 기반 Git은 많은 시스템에 기본적으로 설치 되어 있기 때문에 
+명령어로 Git을 다룰 수 있게 되면 많은 곳에서 특별한 설치 없이 Git을 사용할 수 있습니다. 
 
 명령어로 Git을 다루는 것이 어렵게 느껴지신다면 GUI로 Git을 다루는 수업을 추천드립니다. 
-</code>
+```
 
 * ls -al : 현재 디렉토리의 파일목록을 보여줌
 * mkdir : 디렉토리 생성
@@ -51,7 +54,7 @@
 * staging area = index : git add를 하면 index에 등록됨.
 * working directory - index or staging area or cache - repository
 
-gistory라는 프로그램을 설치하고 git의 원리를 설명해주셨는데 해당 프로그램을 다운받을 수 있는 상황이 아니어서 강의만 듣다보니 이해가 안가는 부분이 많았다. 그러려니...넘어감.
+gistory라는 프로그램을 설치하고 git의 원리를 설명해주셨는데 해당 프로그램을 다운받을 수 있는 상황이 아니어서 강의만 듣다보니 이해가 안가는 부분이 많았다. 그러려니...넘어감. 
 
 
 
