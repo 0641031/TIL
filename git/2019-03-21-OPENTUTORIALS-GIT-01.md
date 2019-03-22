@@ -54,9 +54,3 @@
 * staging area = index : git add를 하면 index에 등록됨.
 * working directory - index or staging area or cache - repository
 
-gistory라는 프로그램을 설치하고 git의 원리를 설명해주셨는데 해당 프로그램을 다운받을 수 있는 상황이 아니어서 강의만 듣다보니 이해가 안가는 부분이 많았다. 그러려니...넘어감. 
-
-
-
-
-
