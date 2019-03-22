@@ -1,2 +1,2 @@
 # TIL
-:memo: Today I leaned
+:zap: Today I leaned
