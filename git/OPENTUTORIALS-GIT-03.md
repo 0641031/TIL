@@ -42,6 +42,6 @@
 
 ### 3 way merge
 
-	![git_3way_img](https://i.imgur.com/xv9SwWW.png)
+![git_3way_img](https://i.imgur.com/xv9SwWW.png)
 * 2 way merge : Base를 확인하지 않고 두 개의 파일을 병합.
 * 3 way merge : Base를 참고로 하여 두 개의 파일을 병합. 수정 사항이 있는 쪽을 채택.
