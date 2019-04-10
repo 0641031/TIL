@@ -1,5 +1,8 @@
 ## [Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)](https://www.udemy.com/vuejs-2-the-complete-guide/) : Second Course Project - Wonderful Quotes
 
+
+![Wonderful Quotes](https://i.imgur.com/HvPu0Rh.png)
+
 * Quote 입력 가능
 * 해당 Quote를 클릭하면 삭제됨
 * 현재 몇 개의 Quote가 있는지 progress bar로 보여줌
