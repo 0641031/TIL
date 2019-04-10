@@ -1,10 +1,9 @@
-## [Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)](https://www.udemy.com/vuejs-2-the-complete-guide/) - Second Course Project - Wonderful Quotes
+## [Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)](https://www.udemy.com/vuejs-2-the-complete-guide/) : Second Course Project - Wonderful Quotes
 
-
-> Quote 입력 가능
-> 해당 Quote를 클릭하면 삭제됨
-> 현재 몇 개의 Quote가 있는지 progress bar로 보여줌
-> 최대 10개의 Quote 등록 가능
+* Quote 입력 가능
+* 해당 Quote를 클릭하면 삭제됨
+* 현재 몇 개의 Quote가 있는지 progress bar로 보여줌
+* 최대 10개의 Quote 등록 가능
 
 
 ![section_10](https://i.imgur.com/KaVx12G.png)
@@ -17,7 +16,7 @@
 아주 대충 그리긴 했지만 한 번 그려보니 정리가 좀 되는 것 같다.
 
 
-1. NewQuote.vue : 버튼에 이벤트를 걸어 methods를 호출함.
+1. **NewQuote.vue** : 버튼에 이벤트를 걸어 methods를 호출함.
 
 	```
 	methods: {
@@ -43,7 +42,7 @@
 	}
 	```
 
-2. Header.vue : progress bar에 필요한 데이터를 App.vue에서 전달받아야 하므로 props 사용. App.vue에서 등록한 컴포넌트에서 v-bind로 데이터를 전달.
+2. **Header.vue** : progress bar에 필요한 데이터를 App.vue에서 전달받아야 하므로 props 사용. App.vue에서 등록한 컴포넌트에서 v-bind로 데이터를 전달.
 	```
 	<app-header :quoteCount="quotes.length" :maxQuotes="maxQuotes"></app-header>
 	```
@@ -56,7 +55,7 @@
 	```
 	v-bind로 스타일을 정해줌.
 
-3. QuoteGrid.vue : App.vue에서 받은 quotes라는 배열의 데이터를 for문을 통해서 Quote.vue 컴포넌트로 하나씩 전달. 이 때 slot를 사용함. ~~사실 이부분은 잘 이해가 안됨~~ 
+3. **QuoteGrid.vue** : App.vue에서 받은 quotes라는 배열의 데이터를 for문을 통해서 **Quote.vue** 컴포넌트로 하나씩 전달. 이 때 slot를 사용함. ~~사실 이부분은 잘 이해가 안됨~~ 
 	```
 	<app-quote v-for="(quote,index) in quotes" @click.native="deleteQuote(index)">{{ quote }}</app-quote>
 	```
@@ -79,7 +78,7 @@
 	    this.quotes.splice(index,1);
 	  }
 	}
-  ```
+ 	 ```
 
 
 
