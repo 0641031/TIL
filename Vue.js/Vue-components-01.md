@@ -8,6 +8,8 @@
 * 현재 몇 개의 Quote가 있는지 progress bar로 보여줌
 * 최대 10개의 Quote 등록 가능
 
+[https://github.com/0641031/VueJS/tree/master/section_10](https://github.com/0641031/VueJS/tree/master/section_10)
+
 ---
 
 ![section_10](https://i.imgur.com/KaVx12G.png)
@@ -19,9 +21,6 @@
 * 실선 : 자식 컴포넌트에서 부모로 이벤트($emit) 전달.
 
 ---
-
-> [https://github.com/0641031/VueJS/tree/master/section_10](https://github.com/0641031/VueJS/tree/master/section_10)
-
 
 아주 대충 그리긴 했지만 한 번 그려보니 정리가 좀 되는 것 같다.
 
