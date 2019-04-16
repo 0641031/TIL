@@ -41,14 +41,28 @@
    	  }
    	}
 	```
-	한 번 전달된 내용에 변경사항이 없을 경우 methods처럼 매번 호출 할 필요없이 저장된 캐쉬값을 반환하면 되기 때문에 computed를 쓴 것 같다. 그런데 App.vue에서 기본 값으로 공백이 있는 string을 전달하지 않으면 undefined가 출력된다. ~~괜찮은 방법인가...?~~
-
+	한 번 전달된 내용에 변경사항이 없을 경우 methods처럼 매번 호출 할 필요없이 저장된 캐쉬값을 반환하면 되기 때문에 computed를 쓴 것 같다. 그런데 App.vue에서 기본 값으로 공백이 있는 string을 전달하지 않으면 lastname에 undefined가 출력된다. ~~괜찮은 방법인가...?~~ 
 	
-
-
-
-
-
+	input이벤트에서 firstname을 구별하기 위한 매개변수, $event를 매개변수로 받는 methods를 호출하여 상위 컴포넌트로 fullname 전달.
+	
+	```
+	<input type="text" :value="firstname"
+		@input="nameChanged(true,$event)">
+	```
+	$event를 console.log로 출력해보면 input값이 event.target.value에 담겨있는 걸 확인 할 수 있다.
+	```
+	nameChanged(isFirst,event){
+		console.log(event);
+		let name = '';
+		if(isFirst){
+			name = event.target.value+' '+this.lastname;
+		}else{
+			name = this.firstname+' '+event.target.value;
+		}
+		this.value = name;
+		this.$emit('input',this.value);
+	}
+	```
 
 
 ###### reference
