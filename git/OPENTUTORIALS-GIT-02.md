@@ -12,7 +12,7 @@
 ### git branch
 
 * git branch : branch의 이름이 나와있고 해당 브랜치 이름 앞에 ‘\*’가 붙음.
-* git brach brachname : 브랜치 생성
+* git branch brachname : 브랜치 생성
 * git checkout branchname : 브랜치 변경
 * 브랜치를 생성하면 현재 속해있는 브랜치의 상태를 그대로 갖게 된다.
 * 브랜치들의 log를 한 번에 볼 수있고, HEAD -> 현재 체크아웃 된 브랜치이름이 나옴. --decorate를 추가함으로써 브랜치별로 구분이 가능.
