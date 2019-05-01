@@ -16,25 +16,25 @@ section_14 animation듣다가 과제를 보니 component가 나오길래 다시 
 
 ```
 props:{
-	//기본값이 100인 숫자타입의 propA가 반드시 필요함.
-	propA: {
-		type: Number,
-		default: 100,
-		required: true
-	},
-	//객체나 배열의 기본값은 함수에서 반환되어야 함.
-	propB: {
-		type:Object,
-		default: function(){
-			return {message : ‘Hello!’}
-		}
-	},
-	//사용자 정의 유효성검사도 가능
-	propC: {
-		validation: function(value){
-			return value>10
-		}
+    //기본값이 100인 숫자타입의 propA가 반드시 필요함.
+    propA: {
+        type: Number,
+	default: 100,
+	required: true
+    },
+    //객체나 배열의 기본값은 함수에서 반환되어야 함.
+    propB: {
+	type:Object,
+	default: function(){
+	    return {message : ‘Hello!’}
 	}
+    },
+    //사용자 정의 유효성검사도 가능
+    propC: {
+	validation: function(value){
+	    return value>10
+        }
+    }
 }
 ```
 
@@ -49,7 +49,7 @@ props:{
 <template>
     <div class="row">
    	 <app-quote v-for="(quote,index) in quotes" @click.native="deleteQuote(index)">
-   		 {{ quote }}
+   	    {{ quote }}
    	 </app-quote>
     </div>
 </template>
@@ -64,11 +64,11 @@ props:{
 ```
 <template>
     <div class="col-sm-6 col-md-4 col-lg-3">
-	   	<div class="panel panel-default">
-	   		 <div class="panel-body quote">
-	   			 <slot>There is no quotes.</slot>
-	   		 </div>
-	   	</div>
+        <div class="panel panel-default">
+	    <div class="panel-body quote">
+	        <slot>There is no quotes.</slot>
+	    </div>
+        </div>
     </div>
 </template>
 ```
@@ -79,15 +79,15 @@ props:{
 
 ```
 <app-quote v-for="(quote,index) in quotes" @click.native="deleteQuote(index)">
-   	<p slot="quote">{{ quote }}</p>
-   	<p slot='writer'>written by 1031</p>
+   <p slot="quote">{{ quote }}</p>
+   <p slot='writer'>written by 1031</p>
 </app-quote>
 ```
 
 ```
 <div class="panel-body quote">
-	<slot name="quote"></slot>
-   	<slot name="writer"></slot>
+    <slot name="quote"></slot>
+    <slot name="writer"></slot>
 </div>
 ```
 
