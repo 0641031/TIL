@@ -41,7 +41,6 @@ key와 value값은 항상 string이어야 한다. 그렇기 때문에 객체를 
 \
 ![localStorage](https://i.imgur.com/uL1W6Bz.png)
 
-\
 저장된 데이터는 크롬을 기준으로 developer tools - application - local storage에서 확인 가능하다.
 
 (MDN문서를 한글로 볼 때는 번역이 되다 만 것도 있으므로 원본을 꼭 확인하는 편이 좋음.)
