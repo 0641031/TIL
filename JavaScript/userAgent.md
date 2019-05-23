@@ -12,7 +12,7 @@
 
 ---
 
-브라우저 정보 확인  
+HTTP 헤더에서 브라우저 정보를 확인 할 수 있다.
 
 ```
 var userAgent = window.navigator.userAgent;

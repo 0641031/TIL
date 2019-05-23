@@ -13,7 +13,7 @@ Vue로 todolist를 만들어보려고 구글링하다가 그나마 간단해 보
 > localStorage는 sessionStorage와 비슷합니다. 유일한 차이점은 localStorage에 저장된 데이터는 만료 기간이 없지만,
 > sessionStorage에 저장된 데이터는 세션이 끝나면(브라우저가 종료되면) 지워진다는 것입니다.
 
-localStorage메소드로 로컬의 storage객체에 접근이 가능하다.
+Web API의 window객체 안에 localStorage메소드로 로컬의 storage객체에 접근이 가능하다.
 
 
 * [Storage](https://developer.mozilla.org/ko/docs/Web/API/Storage)
