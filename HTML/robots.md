@@ -13,7 +13,7 @@
 1. 먼저 검색결과에 노출이 되는데 영향을 주는 건 크롤링을 제어하는 루트디렉토리안에 있는 robots.txt 파일이고, 색인을 제어하는건 head안에 ` <meta name="robots" content=""> ` 라고 한다. (content의 기본값은 index, follow)
 
     ```
-    <meta name="robots" content="nofollow"> `
+    <meta name="robots" content="nofollow">
     ```
     페이지 외부 링크에 대해 크롤링과 같은 추적기능을 사용하지 않도록 검색엔진에 지시하는 역할을 한다. 이는 a링크에서 ` rel="nofollow" ` 처럼 사용할 수도 있다. 
 
