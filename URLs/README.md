@@ -9,6 +9,9 @@
 
 1. Kezz Bracey - [Rem 그리고 Em, 언제 써야 할까](https://webdesign.tutsplus.com/ko/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 
+### SEO
+1. 조은, Eun Cho - [robots.txt](https://medium.com/@euncho/robots-txt-e08328c4f0fd)
+
 ### Programmer
 1. rinae's devlog - [[번역] 나는 어떻게 더 나은 프로그래머가 되었는가](https://rinae.dev/posts/how-i-became-a-better-programmer-kr
 )
