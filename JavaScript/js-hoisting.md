@@ -40,7 +40,7 @@ console.log(name);
 //billy
 
 console.log(nickname);
-Uncaught ReferenceError: nickname is not defined
+//Uncaught ReferenceError: nickname is not defined
 ```
 
 맨 처음 console.log(name)에서 undefined라고 출력이 된다는 건, name이라는 변수선언과 undefined로 초기화까지는 됐다는 것을 의미한다. 선언하지 않은 변수의 경우는 레퍼런스에러가 발생함.
