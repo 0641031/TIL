@@ -8,6 +8,7 @@
 ### CSS
 
 1. Kezz Bracey - [Rem 그리고 Em, 언제 써야 할까](https://webdesign.tutsplus.com/ko/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
+2. Catalin Miron - [CSS 애니메이션 초보자 입문서](https://webdesign.tutsplus.com/ko/tutorials/a-beginners-introduction-to-css-animation--cms-21068)
 
 ### Javascript
 
