@@ -67,4 +67,4 @@ firebase에서 사용하는 [동기, 비동기, 프라미스](https://firebase.g
 ###### reference
 * [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 * [https://poiemaweb.com/es6-promise](https://poiemaweb.com/es6-promise)
-* [https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
+* [https://joshua1988.github.io/web-development/javascript/promise-for-beginners/](https://joshua1988.github.io/web-development/javascript/promise-for-beginners/)
