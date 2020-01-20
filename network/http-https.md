@@ -8,7 +8,7 @@
 * 웹 상에서 클라이언트와 서버간에 요청/응답(request/response)으로 정보를 주고받음.
 * http를 통해 전달되는 자료는 http:로 시작하는 url로 조회할 수 있다.
 * TCP와 UDT를 사용하며, 80번 포트를 사용한다.
-* 왜 80번 포트? 98년에 설립된 기구에 속해있는 IANA가 90년에 알려져있던 모든 포트번호를 기술한 문서를 만들었는데, 그 문서에 80번이 없었음. 91년에 팀 버너스리가 HTTP 0.9 문서에서 첫번째 http버전을 발표할 때, port의 기본값을 80으로 기술함.
+* 왜 80번 포트? 98년에 설립된 기구(ICANN : The Internet Corporation for Assigned Names and Numbers)에 속해있는 IANA(The Internet Assigned Numbers Authority)가 90년에 알려져있던 모든 포트번호를 기술한 문서를 만들었는데, 그 문서에 80번이 없었음. 91년에 팀 버너스리가 HTTP 0.9 문서에서 첫번째 http버전을 발표할 때, port의 기본값을 80으로 기술함.
 * Connectionless : 요청을 보내고 서버가 응답하면 바로 연결이 끊긴다. (cookie, session으로 이를 보완)
 * Stateless : 연결을 끊는 순간, 클라이언트와 서버의 통신은 끝나며 상태 정보를 유지하지 않는다. 
 * 응답코드 : 클라이언트가 서버에 한 요청에 대한 응답
