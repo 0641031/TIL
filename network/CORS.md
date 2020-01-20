@@ -1,11 +1,11 @@
 ### CORS (Cross Origin Resource Sharing)
 
 
-* HTTP요청은 기본적으로 Cross-site HTTP요청이 가능한데(img태그에서 다른 도메인의 이미지호출, link태그로 다른 도메인의 css 호출, CDN사용 등), `<script>`태그로 둘러싸여 있는 스크립트에서 생성된 request는same-origin-policy를 적용받기 때문에 불가능하다.
+* HTTP요청은 기본적으로 Cross-site HTTP요청이 가능한데(img태그에서 다른 도메인의 이미지호출, link태그로 다른 도메인의 css 호출, CDN사용 등), `<script>`태그로 둘러싸여 있는 스크립트에서 생성된 request는 same-origin-policy를 적용받기 때문에 불가능하다.
 	
 	same-origin-policy : 보안이슈로 프로토콜, 호스트명, 포트가 같아야만 요청 가능.
 * AJAX(Asynchronous JavaScript and XML)가 널리사용되면서, `<script>`태그내의 XMLHttpRequest에 대한 요구가 많아짐.
-* 웹브라우저에서 외부 도메인 서버와 통신하기위한 방식을 표준화 함 => CORS 헤더의 규칙으로 결정
+* 웹브라우저에서 외부 도메인 서버와 통신하기위한 방식을 표준화 함 → CORS 헤더의 규칙으로 결정
 
 #### 요청의 종류
 
@@ -16,7 +16,7 @@
 	* 서버에 1번 요청하고 서버도 1번 응답함.
 
 2. Preflight Request
-	* 위의 simple request가 아닌 경우. (GET, HEAD, POST가 아니고, POST일 때, Content-Type이 위 세가지가 아니고…)
+	* 위의 simple request가 아닌 경우. (GET, HEAD, POST가 아니고, POST일 때는 Content-Type이 위 세가지가 아니고…)
 	* 예비요청 / 본요청 나뉘어서 전송.
 	* 예비요청을 보내고 서버가 응답이 가능한지 확인한 후, 본요청을 보냄.
 
