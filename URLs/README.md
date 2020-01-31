@@ -23,3 +23,8 @@
 
 ### Docker
 1. Subicura's Blog - [초보를 위한 도커 안내서 - 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
+
+### REST
+1. DEVIEW 2017 이응준님의 발표 - [그런 REST API로 괜찮은가](https://youtu.be/RP_f5dMoHFc)
+2. HeeJeong Kwon - [REST란? REST API란? RESTful이란?](https://gmlwjd9405.github.io/2018/09/21/rest-and-restful.html)
+3. TOASTMeepup - [REST API 제대로 알고 사용하기](https://meetup.toast.com/posts/92)
