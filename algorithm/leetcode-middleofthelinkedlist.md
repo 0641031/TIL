@@ -1,4 +1,4 @@
-### [Leetcode - Middle of the Linked List](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3290/)
+### [Leetcode - Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)
 
 Given a non-empty, singly linked list with head node head, return a middle node of linked list.
 

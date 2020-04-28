@@ -1,4 +1,4 @@
-### [Leetcode - Group Anagrams](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3288/)
+### [Leetcode - Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 
 Given an array of strings, group anagrams together.
 

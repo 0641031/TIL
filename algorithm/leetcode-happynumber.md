@@ -1,4 +1,4 @@
-### [Leetcode - Happy Number](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3284/)
+### [Leetcode - Happy Number](https://leetcode.com/problems/happy-number/)
 
 Write an algorithm to determine if a number n is "happy".
 

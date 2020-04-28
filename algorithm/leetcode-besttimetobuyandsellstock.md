@@ -1,4 +1,4 @@
-### [Leetcode - Best Time to Buy and Sell Stock II](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/528/week-1/3287/)
+### [Leetcode - Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 Say you have an array prices for which the ith element is the price of a given stock on day i.
 
