@@ -10,8 +10,8 @@ Complete the function in the editor below by returning a RegExp object, _re_, th
 
 **Constraints**
 
-The length of string is _s_ >= 3.
-String _s_ consists of lowercase letters only (i.e., [a-z]).
+* The length of string is _s_ >= 3.
+* String _s_ consists of lowercase letters only (i.e., [a-z]).
 
 **Output Format**
 
