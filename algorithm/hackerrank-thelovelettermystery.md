@@ -65,6 +65,7 @@ function theLoveLetterMystery(s) {
         result += Math.abs(arr[i].charCodeAt() - arr[arr.length-i-1].charCodeAt())
     }
     return result;
+}
 ```
 
 ##### String.prototype.charCodeAt()
