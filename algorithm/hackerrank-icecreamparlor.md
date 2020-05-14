@@ -44,3 +44,19 @@ function icecreamParlor(m, arr) {
 }
 ```
 
+map을 이용하면 한 번의 반복문으로 결과 도출이 가능함.
+
+```
+function icecreamParlor(m, arr) {
+    let map = new Map();
+    for(let i=0; i<arr.length; i++){
+        let value = m - arr[i];
+        if(map.has(value)){
+            return [map.get(value)+1, i+1];
+        }
+        map.set(arr[i], i)
+    }
+}
+```
+
+<sub>반환하는 배열의 순서는 상관 없으니 위의 반복문에서 i가 작은 숫자 일 때 답을 도출하지 않아도 되는데 꼭 순서대로 해야한다는 생각에 사로잡히는 것 같다. </sub>
