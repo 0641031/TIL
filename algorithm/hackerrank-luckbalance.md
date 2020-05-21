@@ -72,3 +72,23 @@ function luckBalance(k, contests) {
 ```
 
 k가 중요한 대회에서 질 수 있는 최대의 수이므로 최대한의 luck을 가져가기 위해서 큰 luck을 먼저 k만큼 더함.
+
+중요한 대회의 luck을 따로 배열에 담아서 풀어보면,
+
+```
+function luckBalance(k, contests) {
+    let imp = [];
+    let luck = 0;
+    contests.forEach(el => {
+        el[1] === 0 ? luck += el[0] : imp.push(el[0]);
+    })
+    // 배열을 내림차순으로 정렬
+    imp.sort((a,b) => { return b-a })
+    // k까지는 luck에 더하고 k이후 부터는 빼준다.
+    luck -= imp.splice(k).reduce((acc,cur) => { return acc+= cur}, 0)
+    luck += imp.slice(0,k).reduce((acc,cur) => { return acc+= cur}, 0); 
+    return luck
+}
+```
+
+splice는 원본배열을 변형하고, slice는 원본배열을 변형하지 않는다. 
