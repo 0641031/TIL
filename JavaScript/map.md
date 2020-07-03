@@ -19,8 +19,8 @@ map.set("Harry Potter 1", "Philosopher's Stone");
 map.set("Harry Potter 2", "Chamber of Secrets");
 map.set("Harry Potter 3", "Prisoner of Azkaban");
 
-// 크기
-map.sizev // 3
+// 크기ac
+map.size // 3
 
 // 값 확인
 map.get("Harry Potter 1");// "Philosopher's Stone"
